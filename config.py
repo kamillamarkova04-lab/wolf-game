@@ -1,0 +1,49 @@
+# Game Configuration
+
+# Window settings
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+FPS = 60
+TITLE = "Wolf Game"
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY = (128, 128, 128)
+DARK_GREEN = (34, 139, 34)
+LIGHT_GREEN = (144, 238, 144)
+BROWN = (139, 69, 19)
+DARK_BROWN = (101, 50, 15)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+
+# Player settings
+PLAYER_SPEED = 5
+PLAYER_HEALTH = 100
+PLAYER_HUNGER = 100
+PLAYER_ENERGY = 100
+PLAYER_STAMINA = 100
+
+# Enemy settings
+ENEMY_SPEED = 3
+ENEMY_HEALTH = 50
+ENEMY_SPAWN_RATE = 0.001
+
+# World settings
+TILE_SIZE = 32
+WORLD_WIDTH = 100
+WORLD_HEIGHT = 100
+CHUNK_SIZE = 20
+
+# Physics
+GRAVITY = 0.5
+FRICTION = 0.9
+
+# Audio
+MASTER_VOLUME = 0.8
+
+# Save system
+SAVE_DIR = "saves/"
+AUTO_SAVE_INTERVAL = 600  # frames (10 seconds at 60 FPS)
